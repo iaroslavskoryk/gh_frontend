@@ -1,0 +1,19 @@
+div {
+	background-color: #E69F9F;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 250px
+}
+p {
+	font-family: Garamond, serif;
+	font-size: 20px;
+	
+}
+h2 {
+	font-family: Verdana, serif;
+	font-weight: bold;
+	padding: 15px
+}
+span{
+	font-weight: bold
+}
