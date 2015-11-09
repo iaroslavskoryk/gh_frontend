@@ -2,42 +2,37 @@
 	text-align: center;
 }
 h1 {
-	font-size: 30px
+	font-size: 30px;
 }
 h2 {
-	font-size: 20px;
-	font-style: italic
+	font-weight: bold;
 }
 h3 {
-	font-weight: bold
-}
-h5 {
-	font-size: 15px;
-	font-weight: bold
+	font-weight: bold;
 }
 p {
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
 .content {
 	width: 800px;
 	margin:50px auto;
 	line-height: 2;
-	font-family: Times
+	font-family: Times;
 }
 .bold {
-	font-weight: bold
+	font-weight: bold;
 }
 .text_center {
-	text-align: center
+	text-align: center;
 }
 .underline {
 	text-decoration: underline;
 }
 .italic{
-	font-style: italic
+	font-style: italic;
 }
 .text_right {
-	text-align: right
+	text-align: right;
 }
 .pic1 {
     float: left; 
