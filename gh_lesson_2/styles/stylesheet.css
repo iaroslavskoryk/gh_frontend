@@ -1,6 +1,9 @@
 .title {
 	text-align: center;
 }
+.title p: {
+	font: italic 25px Arial sans-serif;
+}
 h1 {
 	font-size: 30px;
 }
