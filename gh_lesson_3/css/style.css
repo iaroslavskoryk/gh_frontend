@@ -1,0 +1,31 @@
+body {
+	background: #FAEF94
+}
+.table_one {
+	margin: 20px auto;
+	width: 800px;
+	border-spacing: 1px;
+	border-collapse: separate
+}
+.table_two {
+	margin: auto;
+	margin-top: 50px;
+	border-spacing: 1px;
+	border-collapse: separate;
+	width: 50%
+}
+.table_three {
+	margin: 50px auto 50px;
+	width: 50%
+}
+th {
+	border: 2px solid grey;
+	font-weight: bold 
+}
+td {
+	border: 2px solid grey;
+}
+th, td {
+	padding: 10px 15px;
+	height: 30px;
+}
