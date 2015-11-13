@@ -4,7 +4,7 @@ body {
 /*--------------------WRAPER--------------------------*/
 .wraper {
     overflow: hidden;
-	width: 950px;
+	width: 1000px;
     margin: 0 auto;
 }
 /*--------------------HEADER--------------------------*/
@@ -20,17 +20,39 @@ body {
     padding: 20px;
 }
 .sidebar-left {
+	overflow: hidden;
     float: left;
     width: 120px;
     margin-right: 20px;
 }
 .sidebar-right {
+	overflow: hidden;
     float: right;
     width: 340px;
     padding-left: 20px;
 }
+.sidebar_160 {
+    width: 160px;
+    display: inline-block;
+	padding-top: 20px;
+}
+.sidebar_120 {
+    width: 110px;
+    display: inline-block;
+    padding: 20px;
+	float: inherit;
+}
 .content {
     overflow: hidden;
+}
+h1 {
+	font: normal 24px Times;
+}
+h2 {
+	font: normal 18px Times;
+}
+.title {
+	font: bold 11px Tahoma;
 }
 /*--------------------FOOTER--------------------------*/
 .footer {
