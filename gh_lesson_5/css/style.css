@@ -1,10 +1,39 @@
-
-
-
+body {
+	background-color:
+}
 /*--------------------WRAPER--------------------------*/
-
+.wraper {
+    overflow: hidden;
+	width: 950px;
+    margin: 0 auto;
+}
 /*--------------------HEADER--------------------------*/
-
-/*--------------------SIDEBAR--------------------------*/
-
-/*--------------------WRAPPER--------------------------*/
+.header {
+    overflow: hidden;
+    padding: 30px 20px;
+}
+.logo {
+	float: left;
+}
+/*--------------------MAIN--------------------------*/
+.main {
+    padding: 20px;
+}
+.sidebar-left {
+    float: left;
+    width: 120px;
+    margin-right: 20px;
+}
+.sidebar-right {
+    float: right;
+    width: 340px;
+    padding-left: 20px;
+}
+.content {
+    overflow: hidden;
+}
+/*--------------------FOOTER--------------------------*/
+.footer {
+	clear: both;
+	padding-top: 20px;
+}
