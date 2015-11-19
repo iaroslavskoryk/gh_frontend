@@ -1,61 +1,224 @@
-body {
-	background-color:
+.header,
+.main,
+.footer {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 10px;
 }
-/*--------------------WRAPER--------------------------*/
-.wraper {
-    overflow: hidden;
-	width: 1000px;
-    margin: 0 auto;
+.img {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
-/*--------------------HEADER--------------------------*/
-.header {
-    overflow: hidden;
-    padding: 30px 20px;
+a {
+	text-decoration: none;
+	color: #191919;
 }
+a:hover {
+	text-decoration: underline;
+	color: #888888;
+}
+/*--------------------- Header --------------------*/ 
+
 .logo {
+    float: left;
+	font: normal 18px Times;
+	padding-top: 30px;
+	padding-bottom:20px;
+}
+
+/*--------------------- Content area --------------------*/
+.content-section {
+	background-color: #F4F4F4;
+ }
+
+/*--------------------- Sidebar-left--------------------*/ 	
+.sidebar-left {
+	float: left;
+	width: 120px;
+	font: 11px/15px Tahoma serif;
+}
+.sidebar-left img {
+	padding-top: 20px;
+
+}
+h3 {
+	font: bold 11px Tahoma serif;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.categories-list {
+	display: block;
+	padding: 3px 2px;
+	color: #191919;
+	background-color: #e8e8e8;
+	font:   11px/23px Tahoma serif;  
+}
+.categories-list li {
+	border-bottom: 1px solid white;
+}
+.categories-list li:last-child {
+	border-bottom: none;
+}
+ .categories-list span {
+	float: right;
+	color: #888888;
+  }
+.pages-list {
+	display: block;
+	padding: 3px 2px;
+	color: #191919;
+	background-color: #e8e8e8;
+	font:   11px/23px Tahoma serif;  
+}
+.pages-list li {
+	border-bottom: 1px solid white;
+}
+.pages-list li:last-child {
+	border-bottom: none;
+}
+  input {
+	overflow: hidden;
+	max-width: 100%;
+	border: 0px;
+	background:#FFFFFF;
+  }
+
+ /*--------------------- content--------------------*/ 
+
+ .content{
+	overflow: hidden;
+	float: left;
+	width: 500px;
+	margin: 0 20px;
+	font:   11px/23px Tahoma serif;	
+}
+.post-categories li {
+	display: inline;
+}
+
+.content h1 {
+	font: normal 24px Times serif;
+}
+.post img {
+	padding-top: 14px;
+}
+.posts p {
+    font: 11px/18px Tahoma serif;
+    color: #555555;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.article-footer, .post-footer dt{
+	color: #888888;
+}
+.article-footer {
+	padding-top: 20px;
+}
+.article-footer  dt,dd{
+	display: inline;
+}
+.posts .post-categories {
+	padding-top: 50px
+}
+.post-footer  {
+	border-top: 1px solid #E1E1E1;
+}
+
+.post-footer  dt,dd{
+	display: inline;
+}
+.right {
+    float: right;
+    padding: 61px 0 10px 0;
+}
+h2{
+	font: normal 18px Times serif;  
+}
+
+.pagination {
+	padding: 50px 0 50px 0;
+}
+.pagination span  {
+    padding-right: 7px;
+	float: left;
+	color: #555555;
+}
+.pagination-nav li{
+	padding: 4px 6px;
+	background-color: white;
+    display: inline;
+    margin-right: 2px;
+    text-align: center;
+}
+.pagination li.one {
+    padding: 4px 6px;
+    background-color: #555555;
+    color: #ffffff;
+}
+
+/*--------------------- Sidebar-right--------------------*/ 
+.sidebar-right {
+	float: right;
+	width: 300px;
+}
+.social {
+    overflow: hidden;
+}
+ul.social {
+    display: -webkit-inline-box;
+	padding-left: 20px;
+}
+.rss-block {
+	padding-left: 50px;
+}
+.twitter-block {
+	padding-left: 20px;
+}
+.social a i {
+    padding-top: 5px;
+    font-size: 40px;
+    color: gray;
+}
+
+.social .twitter:hover i {
+	color: #B0DFEE;
+}
+.social .rss:hover i {
+	color: #FF8D00;
+}
+.twitter, .rss {
+	display: block;
+}
+.twitter span, .rss span {
+    display: block;
+    padding-bottom: 4px;
+    font: 11px Tahoma serif;
+    color: #888888;
+}
+
+.news-right {
+	width: 124px;
+	display: block;
+	float: right;
+}
+
+.news-left {
+	display:block;
+	width: 164px;
 	float: left;
 }
-/*--------------------MAIN--------------------------*/
-.main {
-    padding: 20px;
+
+
+ 
+ /*--------------------- footer area --------------------*/
+
+ .footer {
+    height: 40px;
+    padding-top: 30px;
 }
-.sidebar-left {
-	overflow: hidden;
-    float: left;
-    width: 120px;
-    margin-right: 20px;
-}
-.sidebar-right {
-	overflow: hidden;
-    float: right;
-    width: 340px;
-    padding-left: 20px;
-}
-.sidebar_160 {
-    width: 160px;
-    display: inline-block;
-	padding-top: 20px;
-}
-.sidebar_120 {
-    width: 110px;
-    display: inline-block;
-    padding: 20px;
-	float: inherit;
-}
-.content {
-    overflow: hidden;
-}
-h1 {
-	font: normal 24px Times;
-}
-h2 {
-	font: normal 18px Times;
-}
-.title {
-	font: bold 11px Tahoma;
-}
-/*--------------------FOOTER--------------------------*/
-.footer {
-	clear: both;
-	padding-top: 20px;
-}
+  .copyright  {
+	   font:   11px Tahoma, 'New Century Schoolbook', serif;  
+	   color: #555555;
+  }
