@@ -13,7 +13,7 @@ a {
 	text-decoration: none;
 }
 a:hover { /* Цвет фона под ссылкой */ 
-    color: #ffe;  
+    color: red;  
 }
 ul {
 	list-style-type: none;
